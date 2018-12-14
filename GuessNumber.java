@@ -2,7 +2,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class GuessNumber {
-    public static void main(String args[]){
+    private static Scanner scanner;
+
+	public static void main(String args[]){
 
         //creating instance of Random() class
         Random rand = new Random();
@@ -13,7 +15,7 @@ public class GuessNumber {
         //storing random number in randomInteger variable
         randomInteger = rand.nextInt(10)+1;
 
-        Scanner scanner = new Scanner(System.in);       
+        scanner = new Scanner(System.in);       
 
         while(true){
 

@@ -11,13 +11,16 @@ public class EvenNumbers {
 				958, 609, 842, 451, 688, 753, 854, 685, 93, 857, 440, 380, 126, 721, 328, 753, 470,
 				743, 527};
 
-		System.out.println("Odd Numbers:"); 
+		System.out.println("Odd Numbers:");
+		
 		for(int i=0;i<numbers.length;i++){  
 			if(numbers[i]%2!=0 && numbers[i]<=237){  
 				System.out.println(numbers[i]);  
 			}  
 		}  
-		System.out.println("Even Numbers:");  
+		
+		System.out.println("Even Numbers:");
+		
 		for(int i=0;i<numbers.length;i++){  
 			if(numbers[i]%2==0 && numbers[i]<=237){  
 				System.out.println(numbers[i]);  

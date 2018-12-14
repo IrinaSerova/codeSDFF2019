@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class Methods {
 	
-	// method 1 The power of two numbers	
+//	Write a method called powersOfTwo that prints the first 10 powers of 2 
+//	(starting with 2). The method takes no parameters and doesn't return anything.
+	
 	public static void powerOfTwo(){
 		int power = 1;
 		System.out.println(" Method 1 - The power of two numbers");
@@ -11,7 +13,10 @@ public class Methods {
 			System.out.println(power);
 		}		
 	}
-	// method 2 The alarm
+	
+//	Write a method called alarm that prints the word “Alarm!” multiple times on separate lines. 
+//	The method should accept an integer parameter that specifies how many times the output line is printed.
+	
 	private static Scanner myNumber;
 	public static void alarm(int num) {
 		System.out.println(" Method 2 - ALARM");
@@ -22,7 +27,9 @@ public class Methods {
 			System.out.println("Alarm!");
 		}
 	}
-	// method 3 The sum of integers from 1 to 100
+	
+// Write a method called sum100 that returns the sum of the integers from 1 to 100.
+
 	public static int sum100() {
 		System.out.println(" Method 3 - SUM");
 		int sum = 0;
@@ -33,7 +40,11 @@ public class Methods {
 		System.out.println(" is " + sum);
 		return sum;				
 	}
-	// method 4 The sum of the integers in range
+	
+//	Write a method called sumRange that accepts two integer parameters that represent a range. 
+//	You may assume the first parameter is less than or equal to the second. The method should return 
+//	the sum of the integers in that range.
+
 	private static Scanner lowNumber;
 	private static Scanner highNumber;
 	public static int sumRange(int low, int high) {
@@ -54,7 +65,9 @@ public class Methods {
 		System.out.println("is " + sum);
 		return sum;
 	}
-	// method 5 The larger parameter
+	
+//	Write a method called maxOfTwo that accepts two integer parameters and returns the larger of the two.
+	
 	private static Scanner first;
 	private static Scanner second;
 	public static int maxOfTwo(int firstNumber, int secondNumber) {

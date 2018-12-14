@@ -50,31 +50,32 @@ public class Methods {
 		for (int count = low; count <= high; count++) {
 			sum += count;
 		}
-		System.out.println("The sum of the integers in range" + low + " and "+ high);
-		System.out.println("The answer is " + sum);
+		System.out.println("The sum of the integers in range " + low + " and "+ high);
+		System.out.println("is " + sum);
 		return sum;
 	}
 	// method 5 The larger parameter
-//	private static Scanner first;
-//	private static Scanner second;
-//	public static int maxOfTwo(int firstNumber, int secondNumber) {
-//		first = new Scanner(System.in);
-//		System.out.println("Enter the low");
-//		firstNumber = first.nextInt();
-//		second = new Scanner(System.in);
-//		System.out.println("Enter the low");
-//		firstNumber = second.nextInt();
-//		System.out.println("Enter the first number");
-//		System.out.println("Enter the second number");
-//		int result = firstNumber;
-//		if (firstNumber > secondNumber) {
-//			result = firstNumber;
-//			System.out.println(result);
-//			return result;
-//		} else
-//			System.out.println(secondNumber);
-//			return secondNumber;
-//	}
+	private static Scanner first;
+	private static Scanner second;
+	public static int maxOfTwo(int firstNumber, int secondNumber) {
+		System.out.println(" Method 5 - MAX of the integers");
+		first = new Scanner(System.in);
+		System.out.println("Enter the first number");
+		firstNumber = first.nextInt();
+		second = new Scanner(System.in);
+		System.out.println("Enter the second number");
+		firstNumber = second.nextInt();
+		System.out.println("Enter the first number");
+		System.out.println("Enter the second number");
+		int result = firstNumber;
+		if (firstNumber > secondNumber) {
+			result = firstNumber;
+			System.out.println(result);
+			return result;
+		} else
+			System.out.println(secondNumber);
+			return secondNumber;
+	}
 	
 // call methods 	
 	public static void main (String args[]) {
@@ -82,7 +83,7 @@ public class Methods {
 		alarm(0);
 		sum100();
 		sumRange(0,0);
-		//maxOfTwo(3,6);
+		maxOfTwo(3,6);
 	}
 	
 

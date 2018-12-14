@@ -2,13 +2,12 @@ import java.util.Scanner;
 
 public class Methods {
 	
-	// method 1 The power of two numbers
-	
+	// method 1 The power of two numbers	
 	public static void powerOfTwo(){
 		int power = 1;
+		System.out.println("The power of two numbers");
 		for (int count = 1; count <= 10; count++) {
 			power *= 2;
-			System.out.println("The power of two numbers");
 			System.out.println(power);
 		}		
 	}
@@ -49,8 +48,8 @@ public class Methods {
 		return sum;
 	}
 	
+// call methods 	
 	public static void main (String args[]) {
-		System.out.println("The first power of two");
 		powerOfTwo();
 		alarm(0);
 		sum100();

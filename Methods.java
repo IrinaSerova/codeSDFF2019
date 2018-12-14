@@ -16,7 +16,7 @@ public class Methods {
 	public static void alarm(int num) {
 		System.out.println(" Method 2 - ALARM");
 		myNumber = new Scanner(System.in);
-		System.out.println("Enter the number to be checked.");
+		System.out.println("Enter the number");
 		num =myNumber.nextInt();
 		for (int count = 1; count <= num; count++) {
 			System.out.println("Alarm!");
@@ -30,7 +30,7 @@ public class Methods {
 			sum += count;			
 		}
 		System.out.println("The sum of integers from 1 to 100");
-		System.out.println("The answer is " + sum);
+		System.out.println(" is " + sum);
 		return sum;				
 	}
 	// method 4 The sum of the integers in range
@@ -70,10 +70,10 @@ public class Methods {
 		int result = firstNumber;
 		if (firstNumber > secondNumber) {
 			result = firstNumber;
-			System.out.println(result);
+			System.out.println("The answer is " + result);
 			return result;
 		} else
-			System.out.println(secondNumber);
+			System.out.println("The answer is " + secondNumber);
 			return secondNumber;
 	}
 	

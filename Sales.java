@@ -28,22 +28,18 @@ public class Sales
         
         NumberFormat money = NumberFormat.getCurrencyInstance();
         
-        for ( int i=0; i<sales.length; i++ )
-        {
+        for ( int i=0; i<sales.length; i++ ){
             System.out.print("Enter sales for salesperson " + i + ": ");
             sales[i] = scan.nextInt();
-            if ( i == 0 )
-            {
+            if ( i == 0 ){
                 minSales = sales[i];
                 maxSales = sales[i];
             }
-            if ( sales[i] > maxSales )
-            {
+            if ( sales[i] > maxSales ){
                 maxSales = sales[i];
                 maxSalesPerson = i;
             }
-            if ( sales[i] < minSales )
-            {
+            if ( sales[i] < minSales ){
                 minSales = sales[i];
                 minSalesPerson = i;
             }

@@ -62,8 +62,7 @@ public class Sales
         int exceed = scan.nextInt();
         int exceedCount = 0;
         for( int i=0; i < sales.length; i++ ){
-            if( sales[i] > exceed )
-            {
+            if( sales[i] > exceed ){
                 System.out.println("Salesperson " + i + " Sales = " + money.format(sales[i]) );
                 exceedCount++;
             }

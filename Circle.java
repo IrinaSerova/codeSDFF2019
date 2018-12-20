@@ -1,5 +1,6 @@
 /*
  * The Circle class models a circle with a radius and color.
+ * 
  */
 public class Circle {  // Save as "Circle.java"
    // private instance variable, not accessible from outside this class
